@@ -1,4 +1,4 @@
-package com.cedarsoft.course.profiling.sample3;
+package com.cedarsoft.course.profiling.sample4;
 
 import javax.annotation.Nonnull;
 

@@ -8,6 +8,8 @@ import javax.annotation.Nonnull;
 public class Connection {
   @Nonnull
   private final String name;
+  @Nonnull
+  private final VeryLargeObject data = new VeryLargeObject();
 
   public Connection(@Nonnull String name) {
     this.name = name;
